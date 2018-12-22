@@ -3,6 +3,6 @@ sudo: required
 language: csharp
 dotnet: 2.1.500
 mono: none
-solution: hellocs.sln
+solution: lib-hc-get-build.sln
 script:
 - dotnet test
