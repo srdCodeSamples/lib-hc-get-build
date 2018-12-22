@@ -21,7 +21,7 @@ namespace HcGetProduct.Classes
             Versions = new Dictionary<string, HcReleasesVersion>();           
         }
 
-        public HcReleaseData() : this(string.Empty) {}
+        private HcReleaseData() : this(string.Empty) {}
 
         /// <summary>
         /// Get an HcReleasesBuild object by the OS, architecture and version properties.async
