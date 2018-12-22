@@ -1,5 +1,8 @@
-language: generic
 dist: xenial
 sudo: required
+language: csharp
+dotnet: 2.1.500
+mono: none
+solution: hellocs.sln
 script:
-  - exit 0
+- dotnet test
